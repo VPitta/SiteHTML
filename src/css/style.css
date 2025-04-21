@@ -1,0 +1,252 @@
+html, body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color:  white;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+
+  width: 15%;
+  background-color: lightgrey ;   
+  padding: 10px 20px 0px;
+  color: black; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  
+  border-radius: 20px;
+  margin-right: 10px;
+  
+}
+.header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  
+
+}
+.content {
+    background-color: #3498db;
+    min-height: 100px;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.footer {
+    min-height: 150px; 
+    min-width: 150px;
+    border-radius: 20px;
+    background-color: #2c3e50; /* Azul escuro ou uma cor complementa o tema */
+    color: #ffffff; /* Texto branco para contraste */
+    padding: 20px 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+fieldset{
+    margin: 5px;
+    border-radius: 5px;
+
+}
+.contact{
+    border-radius: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3498db;
+}
+ul {
+   list-style: disc;
+    padding-left: 20px;
+}
+
+h1  { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.home-intro, .sobre, .contato, .Horario  {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    text-align: center;
+  }
+ 
+  .home-intro p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .social-media a {
+    color: #ffffff;
+    margin: 0 10px;
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline;
+  }
+
+  .tabela-servicos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tabela-servicos th,
+  .tabela-servicos td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .tabela-servicos th {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .tabela-servicos tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .tabela-servicos tr:hover {
+    background-color: #e0f7fa;
+  }
+  .home-intro.contato h3 {
+    margin: 10px 0;
+    color: #2c3e50;
+  }
+  
+  .home-intro.contato iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    height: 325px;
+  }
+  
+  fieldset {
+    border: 2px solid #3498db;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
+  legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #3498db;
+  }
+  
+  form.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form.contact label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  form.contact input,
+  form.contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  form.contact textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  form.contact button {
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form.contact button:hover {
+    background-color: #2980b9;
+  }
